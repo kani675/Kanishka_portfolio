@@ -19,6 +19,7 @@
     <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#internships">Experience</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -30,7 +31,7 @@
     <div class="hero-inner">
 
       <!-- Photo Slot -->
-	<img id="profile-photo" src="./kani_photo.jpeg" alt="Kanishka G" style="width:300px;height:300px;border-radius:50%;border:5px solid skyblue;">
+      	<img id="profile-photo" src="./kani_photo.jpeg" alt="Kanishka G" style="width:300px;height:300px;border-radius:50%;border:5px solid skyblue;">
 
 
       <div class="hero-text">
@@ -42,7 +43,7 @@
           Passionate about solving complex problems.
         </p>
         <div class="hero-cta">
-          <a href="#achievements" class="btn btn-primary">View Achievements &rarr;</a>
+          <a href="#projects" class="btn btn-primary">View Projects &rarr;</a>
           <a href="#contact" class="btn btn-outline">Get In Touch</a>
         </div>
         <div class="hero-stats">
@@ -162,6 +163,22 @@
   </div>
 
   <div class="divider"></div>
+
+  <!-- ── PROJECTS (loaded from MongoDB) ────────────────────────────── -->
+  <div class="alt-bg">
+    <div class="section-wrap" id="projects">
+      <div class="projects-header">
+        <div>
+          <div class="section-label">03 / Projects</div>
+          <h2 class="section-title">What I Have Built</h2>
+        </div>
+        <button class="btn btn-outline" id="open-add-project">+ Add Project</button>
+      </div>
+      <div id="projects-grid">
+        <!-- Dynamically loaded from MongoDB via API -->
+      </div>
+    </div>
+  </div>
 
   <!-- ── INTERNSHIPS ───────────────────────────────────────────────── -->
   <div class="section-wrap" id="internships">
